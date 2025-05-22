@@ -1,6 +1,8 @@
-# Model-Selectio
-Install packages from requirements.txt
+# Model Selection
 
+## Install Packages from `requirements.txt`
+
+```r
 packages <- readLines("requirements.txt")
 install.packages(setdiff(packages, rownames(installed.packages())))
 ====================================================================
