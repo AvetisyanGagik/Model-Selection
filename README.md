@@ -8,6 +8,7 @@ install.packages(setdiff(packages, rownames(installed.packages())))
 ====================================================================
 
 Classification script will:
+  -> Loan_data.csv
   -> Load and clean the loan dataset
   -> Explore the data (missing values, outliers)
   -> Split into train/test sets  
@@ -17,6 +18,7 @@ Classification script will:
 ====================================================================
 
 Regression script will:
+  -> Food_Delivery_Times.csv
   -> Load the delivery dataset and handle missing values
   -> One-hot encode categorical features
   -> Train regression models (Ridge, Decision Tree, Random Forest, GBM, SVM)
